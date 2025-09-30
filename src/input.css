@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/* hide scrollbar but keep scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+<a class="md:flex md:items-center max-sm:flex max-sm:items-center" href=""><i class="lg:text-[1.1rem] max-md:text-[1.1rem] max-sm:text-[0.9rem] bi bi-person"></i> <span class="max-sm:hidden">Account</span><i class="inline-block  relative fa-solid fa-caret-down">
+                    <div class="bg-black lg:w-[11.1rem] h-[10.1rem] absolute rounded-sm right-0 hidden z-100 hover:block"></div>
+                </i></a>
+                <a class="lg:gap-2   md:flex md:items-center max-sm:flex max-sm:items-center" href=""><i class="lg:text-[1.1rem] max-md:text-[1.1rem] max-sm:text-[0.9rem]  bi bi-question-circle"></i>  <span class="max-sm:hidden"> Help</span><i class="fa-solid fa-caret-down"></i></a>
+                <a class="md:flex max-sm:flex md:mr-2" href=""><i class="lg:text-[1.1rem] max-md:text-[1.1rem] max-sm:text-[0.9rem]  bi bi-cart3"></i><span class="max-sm:hidden">Cart</span></a>
+
